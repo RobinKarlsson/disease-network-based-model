@@ -43,4 +43,4 @@ of infection if the host has symptoms. The distributions will use a variance of 
 probability of infectious contact. The probability of developing symptoms per timestep is
 modeled as a normal distribution of 20%, with a variance of 10% of the value.
 
-By default no vaccination schemes are in effect.
+By default no vaccination schemes nor immigration/emmigration are in effect.
