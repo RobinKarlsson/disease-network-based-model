@@ -23,6 +23,8 @@ with a tendency to maintain low and high degrees.
 
 By continuously adding and removing vertices immigration and emmigration can be simulated. Hence by having a chance that one of these new vertices are either infected or exposed recurring outbreaks of a pandemic may be simulated.
 
+Vaccination schemes such as acquaintance vaccination and random vaccination are simulated to allow for the efficiency of different schemes to be evaluated based on netword parameters.
+
 # default parameters
 
 The degree of a given host is chosen as a random integer between 1 and 11, these neighbours are chosen at random from the pool of available hosts with degree less than 11, hence the initial mean degree of the hosts can be estimated as 5.5. Furthermore, as the simulation runs, each host has a probability of connecting with a neighbours neighbour at each timestep given as a normal distribution of 4.2%, and probability of dropping a connection as a normal distribution of 6.5%. The variance in both these cases are 5% of the value.
@@ -40,3 +42,5 @@ with 10% probability of infectious contact if the host is asymptomatic or 24% pr
 of infection if the host has symptoms. The distributions will use a variance of 15% of the
 probability of infectious contact. The probability of developing symptoms per timestep is
 modeled as a normal distribution of 20%, with a variance of 10% of the value.
+
+By default no vaccination schemes are in effect.
